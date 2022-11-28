@@ -39,9 +39,11 @@ namespace ASP_RESTful_Web_API.Controllers
             
             var rezult = await HttpRead.DownloadFileAsyncString(_url);
 
-            BuffImportData buffImportData = new();
-            buffImportData.DataType = _DataType;
-            buffImportData.DataValue = rezult;
+            BuffImportData buffImportData = new()
+            {
+                DataType = _DataType,
+                DataValue = rezult
+            };
 
             _context.BuffImportData.Add(buffImportData);
             await _context.SaveChangesAsync();
