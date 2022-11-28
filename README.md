@@ -1,5 +1,5 @@
 # ASP_RESTful_Web_API
-ASP.NET Core 7 RESTful Web API (Entity Framework Core, Azure SQL, MS SQL)
+ASP.NET Core 7 RESTful Web API (Entity Framework Core, Azure SQL, MS SQL, Docker)
 
 - База данных для MSSQL взята из проекта Github (# Microsoft_SQL_Server_2022 или #Docker-Win11)
 - База данных для AzureSQL взята из проекта Github (# Microsoft Azure SQL Databases)
