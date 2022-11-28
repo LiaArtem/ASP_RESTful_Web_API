@@ -25,6 +25,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="appsettings\appsettings_azuresql.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings\appsettings_mssql.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings\appsettings_mssql_docker.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings\appsettings_mssql_SA.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
     <Content Update="appsettings_azuresql.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
