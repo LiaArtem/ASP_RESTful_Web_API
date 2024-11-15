@@ -1,5 +1,5 @@
 # ASP_RESTful_Web_API
-ASP.NET Core 8 RESTful Web API (Entity Framework Core, Azure SQL, MS SQL, Docker, Docker Compose)
+ASP.NET Core 9 RESTful Web API (Entity Framework Core, Azure SQL, MS SQL, Docker, Docker Compose)
 
 -------------------------------------------------------------------------------------
 - Первинне створення проекту (з автоматичним розгортанням структури бази даних):
